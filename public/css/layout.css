@@ -415,11 +415,11 @@ ul#nav li.current a { color: #F06000; }
    padding-bottom: 60px;
 }
 #portfolio h1 {
-   font: 2rem/3rem 'opensans-semibold', sans-serif;
+   font: 3rem/4rem 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
-   margin-bottom: 56px;
+   margin-bottom: 5vh;
    color: #000;
 }
 
@@ -493,7 +493,7 @@ ul#nav li.current a { color: #F06000; }
    margin-left: -15px;
    margin-top: -15px;
 }
-.portfolio-item .portfolio-item-meta { padding: 18px }
+.portfolio-item .portfolio-item-meta { padding: 48px 12px 48px 72px }
 .portfolio-item .portfolio-item-meta h5 {
    font: 14px/21px 'opensans-bold', sans-serif;
    font-size: 2rem;

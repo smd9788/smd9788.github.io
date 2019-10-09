@@ -19,13 +19,13 @@ export default class Porfolio extends Component {
                         <img src={`${item.imgurl}`} className="item-img" alt=""/>
                       </a>
                       <div className="portfolio-item-meta">
-                        <h5>{item.name}</h5>
+                        <h5><a href={item.url} rel="noopener noreferrer" style={{color: "black"}} target="_blank">{item.name}</a></h5>
                         <p>{item.description}</p>
                         <br></br>
                         <p>{item.tech}</p>
                         <br></br>
                         <button>
-                          <a href={item.url}>See the code</a>
+                          <a href={item.repo}>See the code</a>
                         </button>
                       </div>
                     </div>

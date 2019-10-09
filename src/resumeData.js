@@ -100,28 +100,32 @@ let resumeData = {
         "description":"Built as a UI foundation for an RPG video game. Users create their own unique characters, which are saved in the database I built.",
         "tech":"Technology Used: JavaScript, React.js, Node.js, Express.js, HTML, CSS (all custom flex-box design), Sass, MongoDB, and Mongoose",
         "imgurl":"images/portfolio/instameal.png",
-        "url":"https://smd9788.github.io/herobuilder-client/"
+        "url":"https://smd9788.github.io/herobuilder-client/",
+        "repo":"https://github.com/smd9788/herobuilder-client"
       },
       {
         "name":"InstaMeal",
         "description":"Mimics the functionality of shopping cart. User’s add food items to a virtual shopping cart and checkout to save the order to an order history database.",
         "tech":"Technology Used: JavaScript, Handlebars, jQuery, HTML, CSS, Sass, Bootstrap, Ruby, Rails, and PostgreSQL.",
         "imgurl":"images/portfolio/instameal.png",
-        "url": "https://smd9788.github.io/instameal-front-client/"
+        "url": "https://smd9788.github.io/instameal-front-client/",
+        "repo":"https://github.com/smd9788/instameal-front-client"
       },
       {
         "name":"FileBucket",
         "description":"Users can upload photos, videos, gif’s, and other file types, save them to their profile, and share them with other users.",
         "tech":"Technology Used: JavaScript, Handlebars, jQuery, HTML, CSS, Sass, Bootstrap, Node.js, Express.js, MongoDB, and Mongoose.",
         "imgurl":"images/portfolio/instameal.png",
-        "url": "https://smd9788.github.io/instameal-front-client/"
+        "url": "https://smd9788.github.io/filebucket-client/",
+        "repo":"https://github.com/smd9788/filebucket-client"
       },
       {
         "name":"Tic-Tac-Toe",
         "description":"Allows users to play a game of tic-tac-toe locally. App utilizes a third-party API to store player information, game results, and moves made.",
         "tech":"Technology: JavaScript, Handlebars, jQuery, HTML, CSS, Sass, Bootstrap, Ruby, Rails, and PostgreSQL.",
         "imgurl":"images/portfolio/instameal.png",
-        "url": "https://smd9788.github.io/instameal-front-client/"
+        "url": "https://smd9788.github.io/tictactoe-client/",
+        "repo":"https://github.com/smd9788/tictactoe-client"
       }
     ]
   }
