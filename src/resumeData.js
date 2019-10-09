@@ -109,6 +109,14 @@ let resumeData = {
     ],
     "portfolio":[
       {
+        "name":"This Portfolio",
+        "description":"My developer portfolio built in React",
+        "tech":"Technology Used: JavaScript, React.js, HTML, CSS",
+        "imgurl":"images/portfolio/instameal.png",
+        "url":"https://smd9788.github.io/",
+        "repo":"https://github.com/smd9788/smd9788.github.io/"
+      },
+      {
         "name":"HeroBuilder",
         "description":"Built as a UI foundation for an RPG video game. Users create their own unique characters, which are saved in the database I built.",
         "tech":"Technology Used: JavaScript, React.js, Node.js, Express.js, HTML, CSS (all custom flex-box design), Sass, MongoDB, and Mongoose",
