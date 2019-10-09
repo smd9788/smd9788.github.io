@@ -21,15 +21,14 @@ export default class Header extends Component {
          <div className="row banner">
             <div className="banner-text">
                <h1 className="responsive-headline">{resumeData.name}</h1>
-               <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>{resumeData.roleDescription}
-               </h3>
-               <hr/>
+               <h3 style={{color:'#fff', fontFamily:'sans-serif'}}>{resumeData.roleDescription}</h3>
                <ul className="social">
                   {
                     resumeData.socialLinks && resumeData.socialLinks.map(item =>{
                       return(
-                              <li key={item.name}>
-                                <a href={item.url} rel="noopener noreferrer" target="_blank"><i className={item.className}></i></a>
+                              <li key={item.name} style={{display: "inline-block", margin: "0 3rem"}}>
+                                <a href={item.url} rel="noopener noreferrer" target="_blank"><i className={item.className} style={{marginBottom: "1rem"}}></i></a>
+                                <p><a href={item.url} rel="noopener noreferrer" target="_blank">{item.name}</a></p>
                               </li>
                             )
                           }

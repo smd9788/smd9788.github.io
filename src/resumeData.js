@@ -12,13 +12,18 @@ let resumeData = {
         },
         {
           "name":"GitHub",
-          "url":"http://github.com/smd9788",
+          "url":"https://github.com/smd9788",
           "className":"fa fa-github fa-2x"
         },
         {
           "name":"Email",
           "url":"mailto:smd09876@gmail.com",
           "className":"fa fa-envelope fa-2x"
+        },
+        {
+          "name":"Resume (PDF)",
+          "url":"images/StephenDiCicco_Resume_2019.pdf",
+          "className":"fa fa-clipboard fa-2x"
         }
       ],
     "aboutme":"I am a Full Stack Software Engineer who recently finished a full-time web development bootcamp at General Assembly (480+ hours). I am currently working for my family's logistics/freight forwarding company and I have been able to contribute tremendously in the short time I have been there, but my true goal is to get back to the code, and work as a software engineer.",
