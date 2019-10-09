@@ -12,7 +12,7 @@ export default class Footer extends Component {
                 return(
                   <li>
                     <a href={item.url}>
-                    <i className={item.className} />
+                     <i className={item.className} />
                     </a>
                   </li>
                 )

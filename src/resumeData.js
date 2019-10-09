@@ -1,8 +1,9 @@
 let resumeData = {
     "imagebaseurl":"https://smd9788.github.io/",
     "name": "Stephen DiCicco",
+    "email": "smd09876@gmail.com",
     "linkedinId":"stephendicicco",
-    "roleDescription": "I am curious software engineer who lives for the Ah-Ha! moments",
+    "roleDescription": "I am hard working software engineer who lives for solving problems and the Ah-Ha! moments",
     "socialLinks":[
         {
           "name":"LinkedIn",
@@ -96,25 +97,31 @@ let resumeData = {
     "portfolio":[
       {
         "name":"HeroBuilder",
-        "description":"mobileapp",
+        "description":"Built as a UI foundation for an RPG video game. Users create their own unique characters, which are saved in the database I built.",
+        "tech":"Technology Used: JavaScript, React.js, Node.js, Express.js, HTML, CSS (all custom flex-box design), Sass, MongoDB, and Mongoose",
         "imgurl":"images/portfolio/instameal.png",
         "url":"https://smd9788.github.io/herobuilder-client/"
       },
       {
         "name":"InstaMeal",
-        "description":"mobileapp",
+        "description":"Mimics the functionality of shopping cart. User’s add food items to a virtual shopping cart and checkout to save the order to an order history database.",
+        "tech":"Technology Used: JavaScript, Handlebars, jQuery, HTML, CSS, Sass, Bootstrap, Ruby, Rails, and PostgreSQL.",
         "imgurl":"images/portfolio/instameal.png",
         "url": "https://smd9788.github.io/instameal-front-client/"
       },
       {
         "name":"FileBucket",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/instameal.png"
+        "description":"Users can upload photos, videos, gif’s, and other file types, save them to their profile, and share them with other users.",
+        "tech":"Technology Used: JavaScript, Handlebars, jQuery, HTML, CSS, Sass, Bootstrap, Node.js, Express.js, MongoDB, and Mongoose.",
+        "imgurl":"images/portfolio/instameal.png",
+        "url": "https://smd9788.github.io/instameal-front-client/"
       },
       {
-        "name":"Tic Tac Toe",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/instameal.png"
+        "name":"Tic-Tac-Toe",
+        "description":"Allows users to play a game of tic-tac-toe locally. App utilizes a third-party API to store player information, game results, and moves made.",
+        "tech":"Technology: JavaScript, Handlebars, jQuery, HTML, CSS, Sass, Bootstrap, Ruby, Rails, and PostgreSQL.",
+        "imgurl":"images/portfolio/instameal.png",
+        "url": "https://smd9788.github.io/instameal-front-client/"
       }
     ]
   }

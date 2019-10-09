@@ -18,12 +18,8 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-.item-img {
-  width: 10vw;
+.portfolio-item {
+  margin-bottom: 10px;
 }
 
 @keyframes App-logo-spin {
