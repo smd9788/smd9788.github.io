@@ -8,22 +8,22 @@ let resumeData = {
         {
           "name":"LinkedIn",
           "url":"https://www.linkedin.com/in/stephendicicco/",
-          "className":"fa fa-linkedin fa-2x"
+          "className":"fab fa-linkedin fa-2x"
         },
         {
           "name":"GitHub",
           "url":"https://github.com/smd9788",
-          "className":"fa fa-github fa-2x"
+          "className":"fab fa-github fa-2x"
         },
         {
           "name":"Email",
           "url":"mailto:smd09876@gmail.com",
-          "className":"fa fa-envelope fa-2x"
+          "className":"fas fa-envelope fa-2x"
         },
         {
           "name":"Resume (PDF)",
           "url":"images/StephenDiCicco_Resume_2019.pdf",
-          "className":"fa fa-clipboard fa-2x"
+          "className":"fas fa-file-pdf fa-2x"
         }
       ],
     "aboutme":"I am a Full Stack Software Engineer who recently finished a full-time web development bootcamp at General Assembly (480+ hours). I am currently working for my family's logistics/freight forwarding company and I have been able to contribute tremendously in the short time I have been there, but my true goal is to get back to the code, and work as a software engineer.",
@@ -39,7 +39,7 @@ let resumeData = {
       },
       {
         "UniversityName":"Assumption College",
-        "specialization":"Economics",
+        "specialization":"Bachelor of Arts (B.A) Economics",
         "MonthOfPassing":"May",
         "YearOfPassing":"2011"
       }
@@ -69,34 +69,42 @@ let resumeData = {
         "Achievements2":"Liaised with custodian banks and tax authorities to facilitate payments"
       }
     ],
-    "skillsDescription":"What I've Worked With",
     "skills":[
       {
-        "skillname":"JavaScript"
+        "skillname":"JavaScript",
+        "icon":"devicon-javascript-plain"
       },
       {
-        "skillname":"HTML5"
+        "skillname":"HTML5",
+        "icon":"devicon-html5-plain"
       },
       {
-        "skillname":"CSS"
+        "skillname":"CSS3",
+        "icon":"devicon-css3-plain"
       },
       {
-        "skillname":"ReactJS"
+        "skillname":"ReactJS",
+        "icon":"devicon-react-plain"
       },
       {
-        "skillname":"NodeJS"
+        "skillname":"NodeJS",
+        "icon":"devicon-nodejs-plain"
       },
       {
-        "skillname":"ExpressJS"
+        "skillname":"ExpressJS",
+        "icon":"devicon-express-original"
       },
       {
-        "skillname":"jQuery"
+        "skillname":"jQuery",
+        "icon":"devicon-jquery-plain"
       },
       {
-        "skillname":"Ruby on Rails"
+        "skillname":"Ruby on Rails",
+        "icon":"devicon-ruby-plain"
       },
       {
-        "skillname":"Amazon Web Services (S3)"
+        "skillname":"Amazon Web Services (S3)",
+        "icon":"devicon-amazonwebservices-plain"
       }
     ],
     "portfolio":[
