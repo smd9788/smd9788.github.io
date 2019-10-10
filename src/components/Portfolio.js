@@ -23,13 +23,14 @@ export default class Porfolio extends Component {
                         <br></br>
                         <p>{item.tech}</p>
                         <br></br>
-                        <button>
+                        <button className="row">
+                          <i class="fab fa-github fa-lg"></i>
                           <a href={item.repo} rel="noopener noreferrer" target="_blank">See the code</a>
                         </button>
                       </div>
                     </div>
-                  )
-                })
+                )
+              })
               }
             </div>
           </div>

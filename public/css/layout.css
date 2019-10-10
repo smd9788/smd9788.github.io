@@ -306,19 +306,15 @@ ul#nav li.current a { color: #F06000; }
    background: #fff;
    border: 0;
    display: flex;
-   flexDirection: row;
+   flex-direction: row;
    margin-bottom: 4rem;
    overflow: hidden;
-   padding: 24px;
+   padding: 24px 24px 4px 24px;
 }
 .item-img {
   border: 1px solid #2B2B2B;
   max-width: 30vw;
 }
-.portfolio-item a {
-   align-self: center;
-}
-
 .portfolio-item .portfolio-item-meta {
   display: flex;
   flex-direction: column;
@@ -337,13 +333,19 @@ ul#nav li.current a { color: #F06000; }
 .portfolio-item .portfolio-item-meta p {
    font: 14px/20px 'opensans-light', sans-serif;
    color: #2B2B2B;
+   height: 2em;
    margin-bottom: 0;
 }
 
 .portfolio-item .portfolio-item-meta button {
+   align-items: center;
    align-self: flex-end;
-   font: 14px/20px 'opensans-bold', sans-serif;
-   padding: 0;
+   display: flex;
+   font: 12px/18px 'opensans-bold', sans-serif;
+   line-height: 1em;
+   margin-right: 1rem;
+   margin-top: 3rem;
+   padding: 3px 10px;
    width: 100px;
 }
 
