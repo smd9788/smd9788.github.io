@@ -65,7 +65,7 @@ export default  class Resume extends Component {
             </div>
             <div className="nine columns main-col">
    				     <div>
-       				   <ul className="skills">
+       				   <ul className="skills" style={{margin:'0'}}>
                     {
                       resumeData.skills && resumeData.skills.map((item) => {
                         return(

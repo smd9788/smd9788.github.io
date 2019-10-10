@@ -15,7 +15,7 @@ export default class ContactUs extends Component {
                return(
                        <li key={item.name} style={{display: "inline-block", margin: "0 3rem"}}>
                          <a href={item.url} rel="noopener noreferrer" target="_blank"><i className={item.className} style={{marginBottom: "1rem"}}></i></a>
-                         <p>{item.name}</p>
+                         <p><a href={item.url} rel="noopener noreferrer" target="_blank">{item.name}</a></p>
                        </li>
                      )
                    }
