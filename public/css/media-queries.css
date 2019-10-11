@@ -18,7 +18,34 @@
       letter-spacing: -1px;
       margin: 0 auto 12px auto;
    }
-
+   .portfolio-item {
+      align-items: center;
+      flex-direction: column;
+      height: 85vh;
+      max-width: 100%;
+   }
+   .item-img {
+      max-width: 55vw;
+   }
+   .portfolio-item .portfolio-item-meta {
+      max-width: 60vw;
+      margin: 0;
+      margin-top: 2rem;
+      padding: 0;
+      justify-content: center;
+      text-align: center;
+   }
+   .portfolio-item .portfolio-item-meta h5 a {
+      font-size: 1.75em;
+   }
+   .portfolio-item .portfolio-item-meta p {
+      font-size: 1.5em;
+   }
+   .portfolio-item .portfolio-item-meta button {
+      align-self: center;
+      margin: 0;
+      margin-top: 1rem;
+   }
 }
 
 /* screenwidth less than 900px
@@ -50,11 +77,13 @@
    /* About Section
    ------------------------------------------------------------------- */
    #about .profile-pic {
-      width: 114px;
-      height: 114px;
-      margin-left: 12px;
+      height: 30vh;
+      margin-left: 3rem;
    }
-   #about .contact-details { width: 50%; }
+   #about .contact-details {
+      margin-right: 1rem;
+      width: 65%;
+   }
    #about .download { width: 50%; }
 
    /* Resume Section
@@ -205,9 +234,13 @@
    header .social {
       margin: 18px 0 24px 0;
       font-size: 24px;
-      line-height: 36px;      
+      line-height: 36px;
    }
-   header .social li { margin: 0 10px; }
+   header .social li {
+      margin: 0 1rem;
+      margin-top: 5rem;
+      font-size: 22px;
+   }
 
     /* scrolldown link */
    header .scrolldown { display: none; }
@@ -349,19 +382,37 @@
 
    /* header styles
    -------------------------------------------------------------------- */
-   header .banner { padding-top: 24px; }
    header .banner-text h1 {
       font: 40px/1.1em 'opensans-bold', sans-serif;      
       margin: 0 auto 24px auto;
    }
    header .banner-text h3 {
-      font: 14px/1.9em 'librebaskerville-regular', sans-serif;
+      font: 18px/1.9em 'librebaskerville-regular', sans-serif;
       width: 90%;
    }
-  
    /* header social links */
-   header .social { font-size: 20px;}
-   header .social li { margin: 0 6px; }
+   header .social {
+      font-size: 20px;
+   }
+   header .social li {
+      font-size: 15px;
+      margin: 0 6px;
+   }
+   header .row {
+      height: 70vh;
+   }
+
+   .portfolio-item {
+      height: 90vh;
+      max-width: 100%;
+   }
+   .item-img {
+     max-width: 80vw;
+    }
+   .portfolio-item .portfolio-item-meta p {
+      font-size: 1.5rem;
+      font-weight: bold;
+   }
 
    /* footer
    ------------------------------------------------------------------------ */

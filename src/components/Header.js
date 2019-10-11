@@ -26,7 +26,7 @@ export default class Header extends Component {
                   {
                     resumeData.socialLinks && resumeData.socialLinks.map(item =>{
                       return(
-                              <li key={item.name} style={{display: "inline-block", margin: "0 3rem"}}>
+                              <li key={item.name}>
                                 <a href={item.url} rel="noopener noreferrer" target="_blank"><i className={item.className} style={{marginBottom: "1rem"}}></i></a>
                                 <p><a href={item.url} rel="noopener noreferrer" target="_blank">{item.name}</a></p>
                               </li>

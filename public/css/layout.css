@@ -90,7 +90,7 @@ header .social {
 }
 header .social li {
    display: inline-block;
-   margin: 0 15px;
+   margin: 0 3rem;
    padding: 0;
 }
 header .social li a { color: #fff; }
@@ -303,17 +303,19 @@ ul#nav li.current a { color: #F06000; }
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item {
+   align-items: center;
    background: #fff;
-   border: 0;
+   border-bottom: 1px solid #ddd;
    display: flex;
    flex-direction: row;
-   margin-bottom: 4rem;
+   height: 65vh;
+   max-width: 80vw;
    overflow: hidden;
-   padding: 24px 24px 4px 24px;
+   padding: 48px 24px 48px 24px;
 }
 .item-img {
   border: 1px solid #2B2B2B;
-  max-width: 30vw;
+  max-width: 35vw;
 }
 .portfolio-item .portfolio-item-meta {
   display: flex;
@@ -331,9 +333,8 @@ ul#nav li.current a { color: #F06000; }
    margin-bottom: 3rem;
 }
 .portfolio-item .portfolio-item-meta p {
-   font: 14px/20px 'opensans-light', sans-serif;
+   font: 14px/24px 'opensans-light', sans-serif;
    color: #2B2B2B;
-   height: 2em;
    margin-bottom: 0;
 }
 
@@ -584,7 +585,7 @@ call-to-action .button {
 #contact a, #contact a:visited  { color: #fff; }
 #contact a:hover, #contact a:focus { color: #11ABB0; }
 
-#contact h1 {
+#contact h3 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
